@@ -265,3 +265,69 @@ Started GET "/welcome/index" for 127.0.0.1 at 2014-10-13 20:22:32 -0400
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 73ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2014-10-13 20:26:56 -0400
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-13 20:26:59 -0400
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2014-10-13 20:27:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
