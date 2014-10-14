@@ -958,3 +958,459 @@ Migrating to CreateComments (20141014211923)
             FROM sqlite_temp_master
             WHERE name='index_comments_on_post_id' AND type='index'
 [0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Qui placeat illum blanditiis minima aliquam culpa. Pariatur laudantium non perspiciatis ut et qui dolor. Neque voluptate ratione odio eius distinctio nulla aut. Culpa magni dolorem dolores. Sequi veniam voluptate."], ["created_at", "2014-10-14 23:06:54.129864"], ["title", "Aut deleniti deserunt reprehenderit."], ["updated_at", "2014-10-14 23:06:54.129864"]]
+  [1m[35m (135.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Qui deleniti dicta quis. Labore vel harum incidunt. Animi in commodi. Quisquam exercitationem saepe provident qui quod suscipit voluptas. Amet soluta et beatae et odit corrupti dicta."], ["created_at", "2014-10-14 23:06:54.269304"], ["title", "Possimus facere libero velit autem occaecati dicta doloribus corporis."], ["updated_at", "2014-10-14 23:06:54.269304"]]
+  [1m[36m (139.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "At nam qui molestiae. Consequatur illo officiis doloremque tenetur ab error consequatur. Esse omnis mollitia."], ["created_at", "2014-10-14 23:06:54.411146"], ["title", "Sit eligendi accusantium at."], ["updated_at", "2014-10-14 23:06:54.411146"]]
+  [1m[35m (139.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Beatae odit architecto ducimus. Fugit ipsam et. Ratione distinctio aut veritatis. Sint consequatur maiores voluptatibus. Sequi voluptatem libero rem."], ["created_at", "2014-10-14 23:06:54.553336"], ["title", "Non officia nostrum occaecati officiis ut labore."], ["updated_at", "2014-10-14 23:06:54.553336"]]
+  [1m[36m (139.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Voluptatum maiores veniam doloribus qui nihil error. Quidem amet exercitationem. Enim non voluptas. Cumque sunt est minus velit aperiam voluptas voluptatum. Beatae nam veritatis porro."], ["created_at", "2014-10-14 23:06:54.695475"], ["title", "Accusamus veniam dolor facere et maxime fuga."], ["updated_at", "2014-10-14 23:06:54.695475"]]
+  [1m[35m (139.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Recusandae vitae tenetur sunt itaque ipsam odio. Soluta ad omnis pariatur est quas perspiciatis. Iusto veniam repellat quibusdam consequatur. Neque facilis sit enim rerum iste. Doloribus natus autem aut iste est recusandae."], ["created_at", "2014-10-14 23:06:54.837496"], ["title", "Qui nam sunt alias qui quo sunt cum."], ["updated_at", "2014-10-14 23:06:54.837496"]]
+  [1m[36m (147.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Quis nulla earum. Fuga quia cupiditate. Veritatis dicta beatae sed."], ["created_at", "2014-10-14 23:06:54.987722"], ["title", "Quos temporibus quam totam."], ["updated_at", "2014-10-14 23:06:54.987722"]]
+  [1m[35m (139.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Aut numquam voluptates omnis aliquam. Ut sequi dolores quae sed eum dolor et. Sunt omnis unde. Nisi velit totam."], ["created_at", "2014-10-14 23:06:55.129841"], ["title", "Eos tenetur dolorem temporibus aut facere atque minus non."], ["updated_at", "2014-10-14 23:06:55.129841"]]
+  [1m[36m (155.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Voluptas eius iste facilis eos eum. Unde et et atque fuga sint. Dolore quis perspiciatis est hic commodi esse. Sed et ullam vitae voluptatem corporis."], ["created_at", "2014-10-14 23:06:55.288286"], ["title", "Voluptatem occaecati vero accusantium ipsam repellat est hic dolor."], ["updated_at", "2014-10-14 23:06:55.288286"]]
+  [1m[35m (139.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Atque officiis culpa minima magnam qui consequatur. Iure quasi temporibus accusantium voluptas dolor nemo. Deleniti consectetur deserunt. Ipsum enim vel consequatur est exercitationem. Natus eos ratione."], ["created_at", "2014-10-14 23:06:55.430954"], ["title", "Cumque perspiciatis natus quibusdam consectetur."], ["updated_at", "2014-10-14 23:06:55.430954"]]
+  [1m[36m (138.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Debitis non qui. Soluta et qui animi dolorem est similique. Facere natus numquam est odit eos. Veniam consequatur quis eos eius ad aperiam. Cupiditate magnam a sunt velit atque."], ["created_at", "2014-10-14 23:06:55.572797"], ["title", "Dolorem enim delectus dolor veniam ut."], ["updated_at", "2014-10-14 23:06:55.572797"]]
+  [1m[35m (139.1ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Modi dolor ullam cupiditate quam illum temporibus. Maiores sapiente incidunt non sed corrupti. Dicta id reiciendis eaque et accusantium repellendus quis. Quisquam et unde minima sit provident culpa qui."], ["created_at", "2014-10-14 23:06:55.714914"], ["title", "Eum eaque laboriosam excepturi sequi."], ["updated_at", "2014-10-14 23:06:55.714914"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Omnis nostrum placeat nisi aut facilis nesciunt omnis. Quo et sit quia. Et quos consequuntur voluptatum amet vel impedit quia. Exercitationem voluptas earum amet veritatis qui."], ["created_at", "2014-10-14 23:06:55.873520"], ["title", "Nobis quisquam reiciendis quo expedita laboriosam."], ["updated_at", "2014-10-14 23:06:55.873520"]]
+  [1m[35m (139.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Modi maiores consequuntur nam id natus eum dolor. Perferendis modi occaecati placeat. Quia ipsum quam."], ["created_at", "2014-10-14 23:06:56.015791"], ["title", "Tenetur maiores enim ducimus quod ex iste."], ["updated_at", "2014-10-14 23:06:56.015791"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Explicabo nemo ut et debitis fugiat. Occaecati nostrum non molestiae asperiores aut ex. Adipisci vero hic sint. Accusantium nulla earum unde exercitationem occaecati vel assumenda."], ["created_at", "2014-10-14 23:06:56.174364"], ["title", "Molestiae consequatur modi dolor dolorum impedit nesciunt dolores."], ["updated_at", "2014-10-14 23:06:56.174364"]]
+  [1m[35m (164.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Nihil corporis id omnis asperiores suscipit ducimus. Incidunt et veritatis cum perferendis qui molestiae natus. Et ipsum quo qui. Voluptatem eum vel molestias minus minima voluptates autem."], ["created_at", "2014-10-14 23:06:56.341428"], ["title", "Aut nesciunt mollitia voluptatem nam."], ["updated_at", "2014-10-14 23:06:56.341428"]]
+  [1m[36m (172.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Nulla dolores vel officia libero alias. Sit et assumenda sunt. Sit ut ab doloribus."], ["created_at", "2014-10-14 23:06:56.516770"], ["title", "Voluptatem natus ut nisi occaecati."], ["updated_at", "2014-10-14 23:06:56.516770"]]
+  [1m[35m (314.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Corrupti iusto rerum molestiae et et in. Doloribus non sit. Voluptatem aliquid quod debitis atque. Dolores sed rem. Ut vel sed soluta possimus."], ["created_at", "2014-10-14 23:06:56.833657"], ["title", "Dolores est omnis asperiores."], ["updated_at", "2014-10-14 23:06:56.833657"]]
+  [1m[36m (240.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Neque et libero aliquam. Animi eius commodi natus quasi alias aut. Incidunt dolores aperiam consequatur ut voluptatem."], ["created_at", "2014-10-14 23:06:57.075581"], ["title", "Vitae culpa aspernatur non quia inventore ut et repellendus."], ["updated_at", "2014-10-14 23:06:57.075581"]]
+  [1m[35m (174.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Est sunt corrupti veritatis dolorem enim cumque rerum. Perferendis blanditiis est at. Officiis officia eveniet."], ["created_at", "2014-10-14 23:06:57.251054"], ["title", "Nam ea error non dolorem."], ["updated_at", "2014-10-14 23:06:57.251054"]]
+  [1m[36m (174.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Et nulla omnis ex et dolorum. Optio nihil beatae et et natus. Ipsam at inventore reiciendis mollitia. Hic quos rem vitae impedit."], ["created_at", "2014-10-14 23:06:57.426229"], ["title", "Quisquam iste cupiditate voluptates velit."], ["updated_at", "2014-10-14 23:06:57.426229"]]
+  [1m[35m (157.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ratione veniam quae voluptatibus tempore hic enim non. Eius qui aliquam fugit magnam ipsum provident ea. Soluta qui et omnis non reiciendis in. Occaecati mollitia odio aut nisi inventore dicta."], ["created_at", "2014-10-14 23:06:57.584940"], ["title", "Maxime eum vitae praesentium sit omnis delectus aut ipsam."], ["updated_at", "2014-10-14 23:06:57.584940"]]
+  [1m[36m (224.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Voluptate maxime possimus. Ut voluptas officia qui. Dolorem vel ratione doloremque."], ["created_at", "2014-10-14 23:06:57.810382"], ["title", "Aut eum est accusamus vel similique."], ["updated_at", "2014-10-14 23:06:57.810382"]]
+  [1m[35m (157.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Et incidunt ut suscipit beatae et ducimus possimus. Delectus et odit voluptatibus non accusamus. Aspernatur error et officiis suscipit deleniti veniam saepe."], ["created_at", "2014-10-14 23:06:57.969904"], ["title", "Praesentium quos voluptas non velit eveniet voluptatibus optio."], ["updated_at", "2014-10-14 23:06:57.969904"]]
+  [1m[36m (172.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Tempora qui commodi saepe ducimus. Quo rerum assumenda ullam natus nostrum beatae voluptatibus. In ut rerum nobis ea magnam libero culpa. Sed odio voluptatem adipisci. Mollitia vero expedita."], ["created_at", "2014-10-14 23:06:58.145942"], ["title", "Amet atque eius numquam."], ["updated_at", "2014-10-14 23:06:58.145942"]]
+  [1m[35m (155.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ut in dolor consequatur autem. Eveniet nulla fugiat repudiandae voluptas minus dolor. Sit in officia eius."], ["created_at", "2014-10-14 23:06:58.304304"], ["title", "In vero deserunt consectetur autem est modi sapiente maxime."], ["updated_at", "2014-10-14 23:06:58.304304"]]
+  [1m[36m (139.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Quod vel amet autem non dolore non consequatur. Dignissimos fuga dicta eos omnis. Corrupti et quasi totam aut qui. Illum facilis non inventore. Adipisci quasi est."], ["created_at", "2014-10-14 23:06:58.446503"], ["title", "In cumque aliquid voluptatem."], ["updated_at", "2014-10-14 23:06:58.446503"]]
+  [1m[35m (139.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Distinctio et reiciendis at eaque quo quia. Distinctio iste deleniti quidem nobis ut et quia. A assumenda ut quos et fugiat. Quia quidem cum. Non dolores autem amet nostrum."], ["created_at", "2014-10-14 23:06:58.588612"], ["title", "Dignissimos perspiciatis ut quisquam blanditiis odio omnis."], ["updated_at", "2014-10-14 23:06:58.588612"]]
+  [1m[36m (139.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Eum nisi ipsum voluptatem quae facere. Pariatur libero molestiae maiores dolorem vel. Id ut consequatur laboriosam qui."], ["created_at", "2014-10-14 23:06:58.730519"], ["title", "Ut aliquam laboriosam ducimus et placeat eum."], ["updated_at", "2014-10-14 23:06:58.730519"]]
+  [1m[35m (139.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Natus nulla sit rerum. Laborum eos suscipit. Autem eaque animi et fugit incidunt. In ut aut. Sed perspiciatis voluptate."], ["created_at", "2014-10-14 23:06:58.872561"], ["title", "Aut dolorum quam corporis voluptate."], ["updated_at", "2014-10-14 23:06:58.872561"]]
+  [1m[36m (139.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Delectus ut qui quaerat dolor veniam. Ullam consectetur pariatur magni modi aperiam ipsa rem. Numquam distinctio impedit. Ut provident asperiores aliquam qui. Suscipit ipsa tenetur autem rem quidem."], ["created_at", "2014-10-14 23:06:59.014880"], ["title", "Qui enim quo nihil est officiis."], ["updated_at", "2014-10-14 23:06:59.014880"]]
+  [1m[35m (180.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Deserunt quis enim aperiam. Expedita dolorem sed. Dolores maiores voluptatem accusantium qui corrupti. Qui non aut praesentium qui. Aut sint velit tenetur."], ["created_at", "2014-10-14 23:06:59.198471"], ["title", "Asperiores aut omnis quae consequatur temporibus et debitis nulla."], ["updated_at", "2014-10-14 23:06:59.198471"]]
+  [1m[36m (139.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Mollitia corporis dolorem. Quis rerum assumenda ipsum cupiditate facere vitae. Soluta officia harum consequatur magnam iure. Quos reiciendis et dolore tempore quae."], ["created_at", "2014-10-14 23:06:59.340588"], ["title", "Veritatis officia in maxime dolore."], ["updated_at", "2014-10-14 23:06:59.340588"]]
+  [1m[35m (172.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Quia labore quam qui vitae. Sit sequi laudantium consequatur. Magnam quam aut. Consequuntur mollitia quis."], ["created_at", "2014-10-14 23:06:59.516181"], ["title", "Aspernatur delectus nulla sequi accusamus autem sit nam."], ["updated_at", "2014-10-14 23:06:59.516181"]]
+  [1m[36m (147.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Tenetur quo non qui asperiores molestiae quae. Aut eius atque doloremque totam. Libero ab sunt."], ["created_at", "2014-10-14 23:06:59.666657"], ["title", "Molestiae quis ipsa blanditiis quia possimus sed est doloribus."], ["updated_at", "2014-10-14 23:06:59.666657"]]
+  [1m[35m (147.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ut doloribus voluptas qui molestiae. Pariatur in rerum temporibus accusamus consectetur dolores assumenda. Impedit iure aut. Voluptas sint sapiente id repellendus illo consequuntur aut."], ["created_at", "2014-10-14 23:06:59.817051"], ["title", "Minima quam hic et nulla et error vero in."], ["updated_at", "2014-10-14 23:06:59.817051"]]
+  [1m[36m (139.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Voluptates velit quasi. Quia nihil temporibus atque id nihil ad. Nihil voluptatem magni vel corporis accusamus et. Omnis labore error qui consequatur voluptatibus qui facere."], ["created_at", "2014-10-14 23:06:59.959412"], ["title", "Et excepturi aut est et enim."], ["updated_at", "2014-10-14 23:06:59.959412"]]
+  [1m[35m (180.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Est consectetur quia cumque. Quis aliquid vitae laudantium. Temporibus voluptas error velit illum nisi molestias quia. Laudantium et excepturi magnam similique aspernatur. Ipsa officia odio maxime ad voluptas quos praesentium."], ["created_at", "2014-10-14 23:07:00.143032"], ["title", "Dolorum voluptatem eligendi praesentium labore."], ["updated_at", "2014-10-14 23:07:00.143032"]]
+  [1m[36m (156.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Dolores doloremque ipsum adipisci sint commodi. Doloremque saepe quis et aliquid consequuntur dicta. Et rerum quia et accusantium velit dolores consequatur."], ["created_at", "2014-10-14 23:07:00.302082"], ["title", "Amet ex minus voluptate quia omnis qui id."], ["updated_at", "2014-10-14 23:07:00.302082"]]
+  [1m[35m (180.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Qui impedit qui. Tempore et quisquam possimus sunt odio sequi. Sint quibusdam sit sed rerum harum perspiciatis. Ipsum nostrum qui aliquid nulla."], ["created_at", "2014-10-14 23:07:00.485879"], ["title", "Quidem sit magnam molestiae sunt et aut at rerum."], ["updated_at", "2014-10-14 23:07:00.485879"]]
+  [1m[36m (155.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Neque qui error sapiente ducimus qui cumque. Fuga et nostrum fugit. Necessitatibus mollitia culpa adipisci ullam fuga. Enim officiis consequuntur. Ut ut voluptas sunt atque excepturi."], ["created_at", "2014-10-14 23:07:00.644357"], ["title", "Optio ullam veritatis in nemo similique in."], ["updated_at", "2014-10-14 23:07:00.644357"]]
+  [1m[35m (139.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ut dolor reprehenderit alias rerum. Quaerat adipisci assumenda repellat qui qui ratione. Rerum corrupti enim repudiandae maxime occaecati."], ["created_at", "2014-10-14 23:07:00.786631"], ["title", "Corporis sit porro blanditiis repellat voluptatem quidem ut."], ["updated_at", "2014-10-14 23:07:00.786631"]]
+  [1m[36m (155.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Architecto omnis omnis est optio accusamus. Culpa praesentium aut esse quia autem. Debitis perferendis est dolorem voluptatem vero quos minima. Et et aliquid sed omnis enim perspiciatis esse."], ["created_at", "2014-10-14 23:07:00.945504"], ["title", "Illo quia aut quos ducimus quaerat."], ["updated_at", "2014-10-14 23:07:00.945504"]]
+  [1m[35m (189.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Blanditiis et nostrum qui ex et in. Delectus similique minus totam iure. Quia et harum animi doloremque et. Consequatur rerum velit dolores."], ["created_at", "2014-10-14 23:07:01.137478"], ["title", "Fugiat fugit tempore nulla enim."], ["updated_at", "2014-10-14 23:07:01.137478"]]
+  [1m[36m (155.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Omnis et sit. Corporis perferendis soluta voluptatem. Incidunt cum est et dolorem quaerat."], ["created_at", "2014-10-14 23:07:01.296438"], ["title", "Excepturi eum aut reprehenderit."], ["updated_at", "2014-10-14 23:07:01.296438"]]
+  [1m[35m (138.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Distinctio alias repellendus eum. Incidunt enim est aut molestiae dicta. Sed nobis incidunt voluptas. Vel neque ducimus tenetur aut doloribus."], ["created_at", "2014-10-14 23:07:01.438373"], ["title", "Ipsum sed est vel sint et minus."], ["updated_at", "2014-10-14 23:07:01.438373"]]
+  [1m[36m (189.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Ut eaque beatae ea nihil labore dignissimos. Fuga architecto pariatur aut voluptatem dolores. Iure quis delectus quaerat dicta. Laudantium iure ad et. Incidunt harum vitae numquam eveniet."], ["created_at", "2014-10-14 23:07:01.630947"], ["title", "Minima quasi quo ab."], ["updated_at", "2014-10-14 23:07:01.630947"]]
+  [1m[35m (155.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Non ipsa et nihil nesciunt. Sit eos sequi ea. Ducimus atque quae adipisci in id est dignissimos. Amet nobis perspiciatis aperiam eos dignissimos exercitationem quaerat."], ["created_at", "2014-10-14 23:07:01.789425"], ["title", "Et incidunt voluptas porro molestias expedita quibusdam eveniet eum."], ["updated_at", "2014-10-14 23:07:01.789425"]]
+  [1m[36m (281.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Rerum officia dolores non consequatur. Quidem est blanditiis sit. Porro debitis perspiciatis consequatur delectus veritatis atque. Cum ex vel. Aut non voluptatibus."], ["created_at", "2014-10-14 23:07:02.074343"], ["title", "Ut voluptatum dicta qui."], ["updated_at", "2014-10-14 23:07:02.074343"]]
+  [1m[35m (297.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("body", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ut ab eum voluptatem omnis impedit voluptates. Amet est enim minima. Dolorum ut voluptatum non aspernatur ut illo. Aut nihil eaque accusamus ut. Voluptatem velit voluptatum asperiores voluptas dolores culpa."], ["created_at", "2014-10-14 23:07:02.374851"], ["title", "Est doloremque iusto quis placeat soluta aut ea."], ["updated_at", "2014-10-14 23:07:02.374851"]]
+  [1m[36m (172.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mPost Load (0.8ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Iusto provident explicabo est velit nisi eaque. Rerum maxime voluptatum ipsam nemo. Rerum et nobis cumque vero."], ["created_at", "2014-10-14 23:07:02.568920"], ["post_id", 8], ["updated_at", "2014-10-14 23:07:02.568920"]]
+  [1m[36m (146.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Debitis blanditiis modi ipsum. Quaerat aperiam atque ipsam voluptatem ut. Qui nam aut quod eius."], ["created_at", "2014-10-14 23:07:02.717223"], ["post_id", 11], ["updated_at", "2014-10-14 23:07:02.717223"]]
+  [1m[35m (164.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Placeat sunt minus consequatur commodi eos ea. Est assumenda dolor exercitationem quibusdam. Exercitationem ea deserunt. Ut accusantium beatae sapiente et debitis. Autem expedita et."], ["created_at", "2014-10-14 23:07:02.884375"], ["post_id", 37], ["updated_at", "2014-10-14 23:07:02.884375"]]
+  [1m[36m (122.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sit dicta eaque. Quia commodi aliquid. Nisi debitis dolor sapiente eius quod. Ut sapiente labore. Nulla excepturi autem ducimus nostrum officiis."], ["created_at", "2014-10-14 23:07:03.010014"], ["post_id", 48], ["updated_at", "2014-10-14 23:07:03.010014"]]
+  [1m[35m (172.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Reiciendis natus et. Sint eligendi aut non explicabo. Voluptatem nemo cumque necessitatibus aut qui quis iure. Ratione ea provident. Iste quo aut."], ["created_at", "2014-10-14 23:07:03.185168"], ["post_id", 9], ["updated_at", "2014-10-14 23:07:03.185168"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sed et enim sit doloremque. Sapiente occaecati qui qui et. Expedita dolor saepe illo officia voluptas voluptas. Sint doloribus explicabo. Velit corrupti est quo consequatur et corporis deserunt."], ["created_at", "2014-10-14 23:07:03.344048"], ["post_id", 19], ["updated_at", "2014-10-14 23:07:03.344048"]]
+  [1m[35m (172.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Reprehenderit nobis vel nulla ducimus deserunt. Temporibus voluptatem sapiente quasi quaerat blanditiis nihil et. Quis eum tempora ab ut. Vel harum sapiente quia odio aspernatur suscipit eius."], ["created_at", "2014-10-14 23:07:03.519822"], ["post_id", 2], ["updated_at", "2014-10-14 23:07:03.519822"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Rem laudantium unde voluptatem. Laboriosam animi eos aut exercitationem vero. Ut officia consequatur tempore. Vero quis et."], ["created_at", "2014-10-14 23:07:03.678424"], ["post_id", 48], ["updated_at", "2014-10-14 23:07:03.678424"]]
+  [1m[35m (306.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Dolores voluptas exercitationem illum quasi et asperiores. Pariatur magnam nihil et voluptas. Nobis perspiciatis natus. Sint ea magnam quae."], ["created_at", "2014-10-14 23:07:03.987454"], ["post_id", 5], ["updated_at", "2014-10-14 23:07:03.987454"]]
+  [1m[36m (180.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Est officia culpa sed nam enim suscipit et. Aut enim unde ratione est nobis porro. Dolor repudiandae voluptas in quas omnis culpa praesentium. Qui qui dolores quaerat corrupti consequatur nihil. Ipsum est dolorem."], ["created_at", "2014-10-14 23:07:04.171336"], ["post_id", 26], ["updated_at", "2014-10-14 23:07:04.171336"]]
+  [1m[35m (155.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Occaecati fugiat quia eum. Tenetur voluptas est ut et iure. Voluptatem facere voluptatem ea. In vel vero in quis non odio ut. Quibusdam sit et iure sunt."], ["created_at", "2014-10-14 23:07:04.329974"], ["post_id", 43], ["updated_at", "2014-10-14 23:07:04.329974"]]
+  [1m[36m (155.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Accusamus consectetur natus est. Aspernatur ratione quod aut qui. Impedit nemo dolorem omnis sed saepe. Doloribus itaque consequatur. Temporibus minus iure voluptate doloremque nostrum dolor."], ["created_at", "2014-10-14 23:07:04.488316"], ["post_id", 46], ["updated_at", "2014-10-14 23:07:04.488316"]]
+  [1m[35m (198.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Porro voluptatem itaque quae aperiam. Ut architecto odit tempora ut et sunt. Dolorum magni voluptates dolores."], ["created_at", "2014-10-14 23:07:04.689099"], ["post_id", 21], ["updated_at", "2014-10-14 23:07:04.689099"]]
+  [1m[36m (180.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sint maiores aliquam maxime vel eum. Quo harum neque ratione omnis laborum quisquam quia. Esse a ea ut ipsam reiciendis. Magni quod voluptatem ipsam autem eos est."], ["created_at", "2014-10-14 23:07:04.873024"], ["post_id", 33], ["updated_at", "2014-10-14 23:07:04.873024"]]
+  [1m[35m (180.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ducimus voluptatem similique. Nihil maiores dolores iure ut. Id minima illo hic sed rerum explicabo unde. Quas iure aut laboriosam."], ["created_at", "2014-10-14 23:07:05.056655"], ["post_id", 33], ["updated_at", "2014-10-14 23:07:05.056655"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Molestias aspernatur dolor. Quasi nemo ab deserunt sunt maxime occaecati. Qui veniam quia doloremque soluta."], ["created_at", "2014-10-14 23:07:05.215298"], ["post_id", 42], ["updated_at", "2014-10-14 23:07:05.215298"]]
+  [1m[35m (139.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Neque ipsam officiis eius fugit. Officiis quia id nobis sit qui ut. Aliquam exercitationem maiores accusamus laboriosam. Id at necessitatibus."], ["created_at", "2014-10-14 23:07:05.357312"], ["post_id", 30], ["updated_at", "2014-10-14 23:07:05.357312"]]
+  [1m[36m (147.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Et molestiae et aut totam dolores ab debitis. Voluptates perspiciatis error reiciendis maxime. Quia perferendis sint."], ["created_at", "2014-10-14 23:07:05.507667"], ["post_id", 2], ["updated_at", "2014-10-14 23:07:05.507667"]]
+  [1m[35m (155.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Fugit accusamus ut dolores est possimus reiciendis. Architecto hic atque cupiditate rerum minus qui. Et dolore voluptatem. Perferendis eligendi et eum blanditiis. Aut id cum."], ["created_at", "2014-10-14 23:07:05.666435"], ["post_id", 33], ["updated_at", "2014-10-14 23:07:05.666435"]]
+  [1m[36m (147.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Ut et necessitatibus aperiam sed. Quaerat deserunt consectetur sed. Id aut consequuntur sint vitae velit accusamus. Odio molestias totam."], ["created_at", "2014-10-14 23:07:05.816759"], ["post_id", 23], ["updated_at", "2014-10-14 23:07:05.816759"]]
+  [1m[35m (139.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Provident eum et veniam tempora. Quis autem alias autem aliquam. Est aut dolor ex aliquam laudantium."], ["created_at", "2014-10-14 23:07:05.958797"], ["post_id", 34], ["updated_at", "2014-10-14 23:07:05.958797"]]
+  [1m[36m (139.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Suscipit distinctio quam eos iusto. Distinctio labore ullam voluptate eveniet odit. Impedit dolor explicabo nobis. Necessitatibus vel id perferendis ut."], ["created_at", "2014-10-14 23:07:06.101105"], ["post_id", 2], ["updated_at", "2014-10-14 23:07:06.101105"]]
+  [1m[35m (155.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Perferendis dolore blanditiis voluptatem quidem amet ex. Deserunt ex provident et et dolores quia nihil. Nesciunt nostrum numquam ea eaque vitae. Consequatur aspernatur est explicabo."], ["created_at", "2014-10-14 23:07:06.259761"], ["post_id", 18], ["updated_at", "2014-10-14 23:07:06.259761"]]
+  [1m[36m (164.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Tempora sed enim hic dolor dolore. Consequuntur et qui assumenda. Quam et voluptas beatae qui. Quas voluptate optio et reiciendis debitis qui. Repellendus voluptatem sed dicta non."], ["created_at", "2014-10-14 23:07:06.426815"], ["post_id", 30], ["updated_at", "2014-10-14 23:07:06.426815"]]
+  [1m[35m (130.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Fugiat aut consequuntur laudantium. Quis consectetur laborum nesciunt aut. A vel eos quos qui voluptatum. Quia atque amet veritatis vitae modi dolor sed."], ["created_at", "2014-10-14 23:07:06.560541"], ["post_id", 1], ["updated_at", "2014-10-14 23:07:06.560541"]]
+  [1m[36m (130.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Mollitia neque harum nostrum ea. Voluptatem quibusdam laboriosam distinctio ipsum voluptas. Et eius voluptate maxime corrupti amet. A omnis pariatur."], ["created_at", "2014-10-14 23:07:06.694285"], ["post_id", 22], ["updated_at", "2014-10-14 23:07:06.694285"]]
+  [1m[35m (130.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Id dolorem eaque harum libero qui expedita facilis. Eveniet odit ut dolore. Voluptatibus aliquid laborum architecto ut necessitatibus iusto vel. Omnis repudiandae molestiae quo error et vitae. Accusamus necessitatibus sit id ab autem quo."], ["created_at", "2014-10-14 23:07:06.828162"], ["post_id", 15], ["updated_at", "2014-10-14 23:07:06.828162"]]
+  [1m[36m (131.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Impedit neque assumenda. Voluptatem qui dolorum occaecati non velit non voluptas. Pariatur consectetur aut ducimus."], ["created_at", "2014-10-14 23:07:06.961951"], ["post_id", 41], ["updated_at", "2014-10-14 23:07:06.961951"]]
+  [1m[35m (189.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Sapiente alias quos quae enim aperiam. Corrupti architecto animi et aliquam similique sit. Dignissimos maxime harum quia quia autem optio assumenda. Possimus nostrum dolores ut. Repellendus et voluptatem eius in."], ["created_at", "2014-10-14 23:07:07.154362"], ["post_id", 21], ["updated_at", "2014-10-14 23:07:07.154362"]]
+  [1m[36m (164.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sunt dolor eos eius molestiae. Tempore molestiae ea ipsum ab. Non sapiente aut incidunt omnis. Tempore odit praesentium ab sit."], ["created_at", "2014-10-14 23:07:07.321379"], ["post_id", 28], ["updated_at", "2014-10-14 23:07:07.321379"]]
+  [1m[35m (164.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Voluptas veniam amet. Et nostrum id molestiae. Soluta ea voluptatem voluptatem."], ["created_at", "2014-10-14 23:07:07.488383"], ["post_id", 15], ["updated_at", "2014-10-14 23:07:07.488383"]]
+  [1m[36m (172.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Magnam esse adipisci ut. Necessitatibus laborum aut enim aut. Saepe suscipit sint sunt qui. Itaque sint ipsum."], ["created_at", "2014-10-14 23:07:07.663859"], ["post_id", 40], ["updated_at", "2014-10-14 23:07:07.663859"]]
+  [1m[35m (172.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Aut voluptatem occaecati pariatur quas qui odio fugiat. Nobis reiciendis aut. Laboriosam eligendi sed et."], ["created_at", "2014-10-14 23:07:07.839201"], ["post_id", 31], ["updated_at", "2014-10-14 23:07:07.839201"]]
+  [1m[36m (222.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Esse ea quia quod alias id. Tenetur consequatur eos tempore dolor excepturi. Quam officiis dolores nihil ratione assumenda natus soluta. Iste ad aliquam vitae quisquam."], ["created_at", "2014-10-14 23:07:08.064260"], ["post_id", 46], ["updated_at", "2014-10-14 23:07:08.064260"]]
+  [1m[35m (164.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Distinctio non doloribus sapiente quo. Occaecati sunt atque nisi quidem repudiandae. Fugit necessitatibus numquam. Hic porro non odit necessitatibus ullam incidunt. Quae id fugiat odio minus aspernatur mollitia perferendis."], ["created_at", "2014-10-14 23:07:08.231924"], ["post_id", 45], ["updated_at", "2014-10-14 23:07:08.231924"]]
+  [1m[36m (155.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Dolorem delectus quis atque cum id. Quis unde et qui ut deleniti voluptate doloremque. Qui quo est sapiente et. Ut sed optio. Voluptas non sunt."], ["created_at", "2014-10-14 23:07:08.390377"], ["post_id", 44], ["updated_at", "2014-10-14 23:07:08.390377"]]
+  [1m[35m (180.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Consectetur accusamus esse. Ea sed quis. Vitae odio atque quia dolorum quas fuga. Quia non itaque voluptatibus quaerat iste quisquam. Qui occaecati molestiae dolorum molestiae est similique architecto."], ["created_at", "2014-10-14 23:07:08.574129"], ["post_id", 6], ["updated_at", "2014-10-14 23:07:08.574129"]]
+  [1m[36m (189.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Nesciunt qui dolorem qui quam. Quam beatae voluptas aut temporibus cumque minus distinctio. Id blanditiis in sunt distinctio inventore at dolores."], ["created_at", "2014-10-14 23:07:08.766287"], ["post_id", 42], ["updated_at", "2014-10-14 23:07:08.766287"]]
+  [1m[35m (164.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Quisquam iure vitae harum. Ut aut modi eum molestias velit voluptate. Qui suscipit modi. Quisquam quos autem odio rem nihil delectus eos."], ["created_at", "2014-10-14 23:07:08.932910"], ["post_id", 18], ["updated_at", "2014-10-14 23:07:08.932910"]]
+  [1m[36m (131.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sunt nisi repellat. Ex quisquam adipisci enim laboriosam recusandae dolores. Necessitatibus velit ea id similique distinctio architecto id. Saepe quisquam quae quia dolores et molestiae dolorem."], ["created_at", "2014-10-14 23:07:09.067179"], ["post_id", 7], ["updated_at", "2014-10-14 23:07:09.067179"]]
+  [1m[35m (130.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Soluta culpa voluptates. Nam sed ut. Quae inventore aut nihil non qui pariatur porro. Rerum et iure consequuntur dolores velit aut dolorem."], ["created_at", "2014-10-14 23:07:09.200815"], ["post_id", 24], ["updated_at", "2014-10-14 23:07:09.200815"]]
+  [1m[36m (130.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Iste sit itaque sed. Vero est autem qui ab. Qui ea quia numquam dicta ratione sit fuga. Odio iusto qui."], ["created_at", "2014-10-14 23:07:09.334237"], ["post_id", 38], ["updated_at", "2014-10-14 23:07:09.334237"]]
+  [1m[35m (131.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Aperiam dolorem sit a facere minima ea. Voluptatum corporis dignissimos quia cum. Deleniti consectetur fuga et. Consequatur sunt aut autem non quasi consequatur et. Illo reiciendis eum."], ["created_at", "2014-10-14 23:07:09.468467"], ["post_id", 8], ["updated_at", "2014-10-14 23:07:09.468467"]]
+  [1m[36m (130.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Repellendus quia enim quia et alias. Dolor at sequi voluptatem ea repellendus. Praesentium dolor voluptate incidunt delectus. Et accusantium sapiente soluta velit corrupti culpa illum."], ["created_at", "2014-10-14 23:07:09.602253"], ["post_id", 6], ["updated_at", "2014-10-14 23:07:09.602253"]]
+  [1m[35m (130.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Laudantium maxime qui facilis error est. Cumque perferendis ad a laudantium est autem. Ut temporibus consequatur est blanditiis voluptatem porro. Ad iste beatae."], ["created_at", "2014-10-14 23:07:09.736118"], ["post_id", 47], ["updated_at", "2014-10-14 23:07:09.736118"]]
+  [1m[36m (130.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sed veniam a et eveniet neque blanditiis cupiditate. Ea aliquam ipsa reiciendis quod sint neque. Est enim consequatur occaecati. Nesciunt sed libero. Tenetur fugiat quis id."], ["created_at", "2014-10-14 23:07:09.870042"], ["post_id", 19], ["updated_at", "2014-10-14 23:07:09.870042"]]
+  [1m[35m (205.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Vel illo quo numquam sed. Aspernatur quidem et. Quaerat ipsa non et dolor reprehenderit excepturi."], ["created_at", "2014-10-14 23:07:10.078608"], ["post_id", 48], ["updated_at", "2014-10-14 23:07:10.078608"]]
+  [1m[36m (163.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Cumque pariatur rem voluptas aut necessitatibus ut minima. Cupiditate ex quidem. Consectetur omnis rem quas. Alias exercitationem qui pariatur iusto dolorem."], ["created_at", "2014-10-14 23:07:10.245616"], ["post_id", 18], ["updated_at", "2014-10-14 23:07:10.245616"]]
+  [1m[35m (156.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Quis sint doloremque numquam eos omnis. Numquam repellat facilis incidunt quos placeat. Et sapiente ea est. Ut eos unde voluptas facilis consequatur. Est assumenda modi labore id quae qui."], ["created_at", "2014-10-14 23:07:10.405021"], ["post_id", 10], ["updated_at", "2014-10-14 23:07:10.405021"]]
+  [1m[36m (163.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Consequuntur ullam provident et illo dolor. Dolorem sint non deleniti reprehenderit ipsum numquam. Enim ut adipisci omnis quisquam velit omnis est. Cupiditate vitae tempore sint ab ut repellat."], ["created_at", "2014-10-14 23:07:10.571889"], ["post_id", 11], ["updated_at", "2014-10-14 23:07:10.571889"]]
+  [1m[35m (189.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Est temporibus natus in assumenda molestias eligendi sapiente. Commodi qui quis ea at quia nihil non. Unde officia quisquam. Rerum eveniet suscipit reiciendis sint labore autem. Quisquam eos quam aut est."], ["created_at", "2014-10-14 23:07:10.764090"], ["post_id", 36], ["updated_at", "2014-10-14 23:07:10.764090"]]
+  [1m[36m (180.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Aperiam quibusdam voluptate omnis et nam. Facilis mollitia est pariatur quod illum. Odio aut nesciunt similique. Recusandae et labore perspiciatis voluptas. Eos molestias neque excepturi voluptatem reprehenderit blanditiis cum."], ["created_at", "2014-10-14 23:07:10.947850"], ["post_id", 15], ["updated_at", "2014-10-14 23:07:10.947850"]]
+  [1m[35m (155.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Debitis quis omnis quibusdam. Perspiciatis nam maiores aut. Consectetur molestiae ut dicta molestiae temporibus. Dolor earum quia."], ["created_at", "2014-10-14 23:07:11.106337"], ["post_id", 9], ["updated_at", "2014-10-14 23:07:11.106337"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Corrupti non fugit consequatur. Quos dolores et eos consequatur quo est dignissimos. Enim ut rerum. Tempore odio vero error harum."], ["created_at", "2014-10-14 23:07:11.265156"], ["post_id", 19], ["updated_at", "2014-10-14 23:07:11.265156"]]
+  [1m[35m (247.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Reiciendis aspernatur facere aut officia eos culpa. Error dolorem minima qui. Est officiis neque. Quia blanditiis repellat. Nobis consequatur sit mollitia cumque esse vitae deleniti."], ["created_at", "2014-10-14 23:07:11.515756"], ["post_id", 43], ["updated_at", "2014-10-14 23:07:11.515756"]]
+  [1m[36m (222.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Quia dolorem ut libero sunt qui laborum. Qui molestiae cupiditate laudantium eos qui qui quaerat. Optio unde eum."], ["created_at", "2014-10-14 23:07:11.740875"], ["post_id", 25], ["updated_at", "2014-10-14 23:07:11.740875"]]
+  [1m[35m (272.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ex soluta in placeat. Voluptatem enim aperiam nostrum saepe optio. Quia error aliquid ipsam."], ["created_at", "2014-10-14 23:07:12.016315"], ["post_id", 1], ["updated_at", "2014-10-14 23:07:12.016315"]]
+  [1m[36m (155.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Tempora eaque accusantium nulla quibusdam. Alias laudantium numquam porro consequuntur tempore. Quidem perferendis numquam quis qui et iusto omnis. Qui dolore dolorem est repellat. Doloribus dignissimos nobis."], ["created_at", "2014-10-14 23:07:12.175196"], ["post_id", 10], ["updated_at", "2014-10-14 23:07:12.175196"]]
+  [1m[35m (164.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Dolores alias dolorum vero. Facere neque nesciunt ipsam voluptate reiciendis. Amet similique vitae vel distinctio. Exercitationem aut aut doloribus voluptatem veritatis nesciunt. Qui explicabo similique odit voluptatem occaecati sint."], ["created_at", "2014-10-14 23:07:12.342307"], ["post_id", 48], ["updated_at", "2014-10-14 23:07:12.342307"]]
+  [1m[36m (205.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Aut optio ratione. Repellat necessitatibus enim. Quod ad est sapiente ut qui atque ea. A sit labore nisi. Atque aperiam voluptas rerum quo et."], ["created_at", "2014-10-14 23:07:12.551126"], ["post_id", 41], ["updated_at", "2014-10-14 23:07:12.551126"]]
+  [1m[35m (197.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Nesciunt ipsa occaecati et et est. Accusantium sed qui repellendus quia. Iure quia aut non praesentium similique. Nulla nemo est nesciunt."], ["created_at", "2014-10-14 23:07:12.751467"], ["post_id", 49], ["updated_at", "2014-10-14 23:07:12.751467"]]
+  [1m[36m (205.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Eos qui quis pariatur eaque aut. Non mollitia modi sed sint. Qui at neque. Debitis sit nam quisquam. Magnam neque voluptas aut atque eos natus voluptatibus."], ["created_at", "2014-10-14 23:07:12.960234"], ["post_id", 38], ["updated_at", "2014-10-14 23:07:12.960234"]]
+  [1m[35m (172.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Labore minus cum voluptatem fugit. Ratione dicta illum nemo. Suscipit id facilis vitae rerum ut. Rerum fugit sit minima blanditiis molestiae mollitia. Est quo ipsam mollitia consequatur placeat voluptatem ut."], ["created_at", "2014-10-14 23:07:13.135641"], ["post_id", 33], ["updated_at", "2014-10-14 23:07:13.135641"]]
+  [1m[36m (147.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Totam aut laborum et voluptatem eum sunt ad. Quidem quia distinctio et amet quis. Quo deserunt architecto atque fugiat ea perspiciatis. Facere sint rem ea culpa. Atque voluptate repellat enim ipsa omnis."], ["created_at", "2014-10-14 23:07:13.285997"], ["post_id", 50], ["updated_at", "2014-10-14 23:07:13.285997"]]
+  [1m[35m (222.3ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Qui amet dolor non omnis similique sequi. Voluptatibus libero soluta et unde quo qui. Magni possimus laudantium nesciunt repudiandae ab. Quam omnis rerum nemo. Ea est fugiat soluta fugit repellendus."], ["created_at", "2014-10-14 23:07:13.511422"], ["post_id", 41], ["updated_at", "2014-10-14 23:07:13.511422"]]
+  [1m[36m (189.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Autem hic enim est necessitatibus esse. Aspernatur accusamus illum molestiae. Ad dolorem natus odit."], ["created_at", "2014-10-14 23:07:13.703284"], ["post_id", 36], ["updated_at", "2014-10-14 23:07:13.703284"]]
+  [1m[35m (139.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Quo voluptatem quam amet. Ex aliquam laborum. Et sed sit voluptates aut laborum. Iste iusto provident iure veritatis."], ["created_at", "2014-10-14 23:07:13.845376"], ["post_id", 2], ["updated_at", "2014-10-14 23:07:13.845376"]]
+  [1m[36m (130.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Esse deleniti et dolores perferendis sit. Ut aliquam culpa voluptas. Iure unde dolore beatae alias est. Explicabo vel magnam est."], ["created_at", "2014-10-14 23:07:13.979148"], ["post_id", 37], ["updated_at", "2014-10-14 23:07:13.979148"]]
+  [1m[35m (139.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Amet excepturi nulla dolorum. Recusandae voluptas saepe. Quae ad facilis omnis nemo. Mollitia et aliquid velit omnis aliquam magni dolores."], ["created_at", "2014-10-14 23:07:14.121175"], ["post_id", 17], ["updated_at", "2014-10-14 23:07:14.121175"]]
+  [1m[36m (139.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sequi vel ut perferendis. Non molestias nam repellendus commodi et. Ut eum exercitationem neque autem occaecati sunt voluptatum. Quas error voluptatem accusamus ut cumque dolorem eaque."], ["created_at", "2014-10-14 23:07:14.263484"], ["post_id", 28], ["updated_at", "2014-10-14 23:07:14.263484"]]
+  [1m[35m (147.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Ipsum corrupti labore sit eos. Quaerat voluptas molestias consequuntur. Vel delectus repellendus quidem quae placeat laboriosam. Quia omnis enim ex et officia consectetur."], ["created_at", "2014-10-14 23:07:14.414120"], ["post_id", 37], ["updated_at", "2014-10-14 23:07:14.414120"]]
+  [1m[36m (147.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Veritatis fugiat officia quod et corporis ducimus. Omnis hic molestiae illo aut fuga dignissimos. Nobis rem et laborum aut beatae."], ["created_at", "2014-10-14 23:07:14.564111"], ["post_id", 14], ["updated_at", "2014-10-14 23:07:14.564111"]]
+  [1m[35m (189.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Qui ut autem aut cumque omnis sapiente. Quisquam et porro aspernatur fuga. Enim voluptatibus ut eius quam."], ["created_at", "2014-10-14 23:07:14.756431"], ["post_id", 35], ["updated_at", "2014-10-14 23:07:14.756431"]]
+  [1m[36m (181.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Voluptatum ipsa provident in pariatur. Assumenda iusto quo delectus quasi veritatis cum eveniet. Cupiditate beatae enim odit inventore. Sunt eos rerum doloremque eligendi ut. Magnam dolore nihil sint."], ["created_at", "2014-10-14 23:07:14.940540"], ["post_id", 12], ["updated_at", "2014-10-14 23:07:14.940540"]]
+  [1m[35m (164.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Tenetur amet sit quia voluptatem saepe. Ut aut quia quod quisquam sit. Sint est dolorem assumenda animi recusandae. Sed nihil et."], ["created_at", "2014-10-14 23:07:15.107653"], ["post_id", 12], ["updated_at", "2014-10-14 23:07:15.107653"]]
+  [1m[36m (155.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Ipsa qui quia et. Error illum cum non ut. Velit aut dolores quia est deserunt et. Inventore eos doloremque velit est voluptas."], ["created_at", "2014-10-14 23:07:15.266257"], ["post_id", 18], ["updated_at", "2014-10-14 23:07:15.266257"]]
+  [1m[35m (181.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Eaque dolores sint et facere nobis. Suscipit dolorem similique. Dolor quas eum repellat inventore ut excepturi. Saepe soluta possimus aut adipisci odio officiis debitis."], ["created_at", "2014-10-14 23:07:15.450189"], ["post_id", 22], ["updated_at", "2014-10-14 23:07:15.450189"]]
+  [1m[36m (172.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Quod veniam soluta incidunt aut. Quos facere velit non in rem hic. Fugiat sit et repudiandae est molestiae possimus. Odio natus id porro."], ["created_at", "2014-10-14 23:07:15.625423"], ["post_id", 4], ["updated_at", "2014-10-14 23:07:15.625423"]]
+  [1m[35m (172.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Quisquam quis ex et in. Commodi asperiores quos. Vitae ea et est reiciendis est aperiam. Odio magni perferendis."], ["created_at", "2014-10-14 23:07:15.800872"], ["post_id", 32], ["updated_at", "2014-10-14 23:07:15.800872"]]
+  [1m[36m (155.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Corrupti ut neque. Fugiat repellendus odio voluptatem quod culpa soluta praesentium. Non pariatur dignissimos corrupti nobis saepe. Aut saepe animi unde molestiae et minima placeat."], ["created_at", "2014-10-14 23:07:15.959617"], ["post_id", 21], ["updated_at", "2014-10-14 23:07:15.959617"]]
+  [1m[35m (205.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Fugit quia sapiente quia. Cumque similique iusto dignissimos et aliquid. Sunt quia dolores. Et adipisci dolor. Deleniti iure voluptatum expedita sed omnis ut."], ["created_at", "2014-10-14 23:07:16.168395"], ["post_id", 12], ["updated_at", "2014-10-14 23:07:16.168395"]]
+  [1m[36m (412.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Autem dolorem quia. Delectus qui omnis et. Dolor vitae ex deserunt qui expedita ad. Qui fugiat veritatis dolorem totam."], ["created_at", "2014-10-14 23:07:16.583382"], ["post_id", 41], ["updated_at", "2014-10-14 23:07:16.583382"]]
+  [1m[35m (149.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Vel dolores nulla laborum aut consectetur. Reprehenderit itaque illum aliquid eum. Consectetur qui reprehenderit ratione veniam illum. Necessitatibus quia quia qui debitis perferendis. Sunt omnis beatae possimus."], ["created_at", "2014-10-14 23:07:16.735684"], ["post_id", 29], ["updated_at", "2014-10-14 23:07:16.735684"]]
+  [1m[36m (148.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Quas cupiditate et natus quia aut. Excepturi aperiam hic. Itaque quia ea ipsum quisquam consequatur quidem facilis. Quod nobis minima soluta."], ["created_at", "2014-10-14 23:07:16.886367"], ["post_id", 11], ["updated_at", "2014-10-14 23:07:16.886367"]]
+  [1m[35m (150.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Voluptatibus voluptas ut sit reprehenderit est quasi. Dignissimos quis voluptatem. Minima ullam sequi."], ["created_at", "2014-10-14 23:07:17.045019"], ["post_id", 13], ["updated_at", "2014-10-14 23:07:17.045019"]]
+  [1m[36m (197.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Id velit ad autem cum. Possimus veritatis beatae itaque. Quia optio et hic eveniet necessitatibus aut sit."], ["created_at", "2014-10-14 23:07:17.245394"], ["post_id", 34], ["updated_at", "2014-10-14 23:07:17.245394"]]
+  [1m[35m (172.4ms)[0m  commit transaction
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Sit a facere provident porro velit in. Nulla non est facere corrupti voluptas. Sit non voluptas cumque. Rerum consequatur asperiores est."], ["created_at", "2014-10-14 23:07:17.421110"], ["post_id", 37], ["updated_at", "2014-10-14 23:07:17.421110"]]
+  [1m[36m (163.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sed laudantium ea optio. Dignissimos ut id. Distinctio doloribus consequatur est sapiente. Quia exercitationem commodi reiciendis qui sint officiis."], ["created_at", "2014-10-14 23:07:17.587884"], ["post_id", 12], ["updated_at", "2014-10-14 23:07:17.587884"]]
+  [1m[35m (164.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Sit et sint cum. Magni ex voluptatibus tenetur. Quo laboriosam asperiores reprehenderit et cumque id quia. Sit et aut voluptas hic modi maiores molestiae."], ["created_at", "2014-10-14 23:07:17.755299"], ["post_id", 16], ["updated_at", "2014-10-14 23:07:17.755299"]]
+  [1m[36m (130.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Tenetur quod id molestiae. Modi impedit totam eos earum. Velit ut pariatur non cum. Impedit ut earum dolores non. Temporibus id officiis quas."], ["created_at", "2014-10-14 23:07:17.889375"], ["post_id", 41], ["updated_at", "2014-10-14 23:07:17.889375"]]
+  [1m[35m (146.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Mollitia magni rem et. Vel ut voluptatem possimus porro ab sint. Rerum enim voluptates debitis unde."], ["created_at", "2014-10-14 23:07:18.039318"], ["post_id", 47], ["updated_at", "2014-10-14 23:07:18.039318"]]
+  [1m[36m (131.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Repudiandae ad sit id. Quae et velit ducimus veniam totam possimus. Dolor voluptates est explicabo aut."], ["created_at", "2014-10-14 23:07:18.173349"], ["post_id", 9], ["updated_at", "2014-10-14 23:07:18.173349"]]
+  [1m[35m (197.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Distinctio et ut est exercitationem. Consectetur reiciendis aliquam odio quia tempora quidem. Et est porro quos sit totam nulla labore. Quia consequuntur nam. Dignissimos cum praesentium sunt ad."], ["created_at", "2014-10-14 23:07:18.373929"], ["post_id", 31], ["updated_at", "2014-10-14 23:07:18.373929"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Qui ullam provident repudiandae. Id eos reprehenderit voluptas nihil. Quis dicta iure nostrum sint rerum totam. Aperiam animi nisi voluptates."], ["created_at", "2014-10-14 23:07:18.532727"], ["post_id", 16], ["updated_at", "2014-10-14 23:07:18.532727"]]
+  [1m[35m (139.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Quae optio itaque vitae neque est velit. Quos eos perferendis adipisci recusandae. Beatae ad debitis id. Ad nulla voluptas. Qui dolorem sit."], ["created_at", "2014-10-14 23:07:18.674837"], ["post_id", 11], ["updated_at", "2014-10-14 23:07:18.674837"]]
+  [1m[36m (181.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Porro eos ab quia neque. Cupiditate hic iure et et maxime. Officia excepturi libero sed placeat eveniet natus iure. Corporis numquam explicabo sunt voluptas et accusamus ullam."], ["created_at", "2014-10-14 23:07:18.858821"], ["post_id", 47], ["updated_at", "2014-10-14 23:07:18.858821"]]
+  [1m[35m (155.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Tempore doloribus dolorum ipsa unde odit vitae. Et qui ut. Doloremque et ut aut."], ["created_at", "2014-10-14 23:07:19.017711"], ["post_id", 39], ["updated_at", "2014-10-14 23:07:19.017711"]]
+  [1m[36m (197.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Blanditiis id rerum delectus quas. Delectus maiores aut. Sunt magni debitis. Adipisci quis aut. Sed nesciunt error praesentium veniam voluptatem."], ["created_at", "2014-10-14 23:07:19.218200"], ["post_id", 40], ["updated_at", "2014-10-14 23:07:19.218200"]]
+  [1m[35m (230.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)  [["body", "Voluptatum temporibus autem eum laudantium explicabo. Enim odio delectus voluptatem aliquam vero voluptas ad. Quaerat molestiae minima. Minus quia perspiciatis exercitationem sit. Ut culpa sed consequuntur."], ["created_at", "2014-10-14 23:07:19.452000"], ["post_id", 6], ["updated_at", "2014-10-14 23:07:19.452000"]]
+  [1m[36m (155.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "comments" ("body", "created_at", "post_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["body", "Sed recusandae officiis nostrum nemo. Dolores sit voluptatem perferendis et aut laudantium unde. Mollitia sed veritatis. Nihil et mollitia. Eius voluptates dicta vitae non dolor."], ["created_at", "2014-10-14 23:07:19.610693"], ["post_id", 36], ["updated_at", "2014-10-14 23:07:19.610693"]]
+  [1m[35m (172.4ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "comments"
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts"  WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "comments"  WHERE "comments"."post_id" = ?  [["post_id", 3]]
