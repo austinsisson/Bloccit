@@ -19,3 +19,10 @@ rails s
 rails 
 rails s
 bootstrap-sass -v
+rails s
+rails s
+git add .
+git commit -m "Added a Posts controller, completed this checkpoint from Nitrous.IO"
+git config --global user.email "austinsisson@gmail.com"
+git config --global user.name "Austin Sisson"
+git commit -m "Added a Posts controller, completed this checkpoint from Nitrous.IO"
