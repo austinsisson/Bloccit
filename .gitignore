@@ -2,3 +2,6 @@
 /log
 /test
 /tmp
+# Ignore application configuration
+/config/application.yml
+/config/secrets.yml
