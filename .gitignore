@@ -1,4 +1,4 @@
-db/
-log/
-test/
-temp/
+/db
+/log
+/test
+/tmp
