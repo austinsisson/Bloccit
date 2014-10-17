@@ -1,7 +1,7 @@
-/db/*.sqlite3
-/log
-/test
-/tmp
+db/*.sqlite3
+log/
+test/
+tmp/
 # Ignore application configuration
 /config/application.yml
 /config/secrets.yml
