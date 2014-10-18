@@ -41,8 +41,8 @@ posts = Post.all
 end
 
 User.first.update_attributes!(
-  email: 'austin@vbloccit.com',
-  password: 'password12345',
+  email: 'austin@bloccit.com',
+  password: 'password123',
 )
 
 puts "Seed finished"
