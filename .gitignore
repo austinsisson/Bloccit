@@ -8,3 +8,6 @@ tmp/
 
 # Ignore bundler
 /.bundle
+
+# Carrierwave image
+public/uploads
