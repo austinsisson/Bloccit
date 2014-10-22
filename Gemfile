@@ -12,6 +12,8 @@ end
 group :development do
   gem 'sqlite3'
   gem 'quiet_assets'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 gem 'sass-rails', '~> 4.0.3'
@@ -33,3 +35,4 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog'
 gem 'will_paginate'
+
