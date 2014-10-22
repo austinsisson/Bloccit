@@ -59,3 +59,17 @@ rails s
 bundle install
 rake db:migrate
 rails s
+git reset --hard origin/master
+git pull
+git pull origin master
+git checkout -b comments
+rails g migration AddUsersToComments user_id:integer
+bundle
+rails g migration AddUsersToComments user_id:integer
+rails s
+rails g migration AddUsersToComments user_id:integer
+rake db:migrate
+rails g controller comments
+rails s
+rails s
+rails s
