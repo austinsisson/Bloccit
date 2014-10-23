@@ -1,0 +1,15 @@
+
+	<div class="media">
+		<a class="pull-left">
+			<%= image_tag(comment.user.avatar.tiny.url) if comment.user.avatar? %>
+		</a>
+		<div class="media-body">
+			<h4 class="media-heading">
+				<%= comment.body %>
+				<small>
+					submitted <%= time_ago_in_words(comment.created_at) %> by
+					<%= comment.user.name %>
+				</small>
+			</h4>
+		</div>
+	</div>
