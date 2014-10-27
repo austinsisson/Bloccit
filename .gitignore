@@ -12,3 +12,6 @@ tmp/
 
 # Carrierwave image
 public/uploads
+
+# Ignore .gem directory to prevent unnecessary details in commits from Nitrous.IO
+.gem/
