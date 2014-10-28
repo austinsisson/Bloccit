@@ -73,3 +73,27 @@ rails g controller comments
 rails s
 rails s
 rails s
+rails s
+git checkout app/views/layouts/application.html.erb
+git checkout app/assets/stylesheets/application.css.scss
+git checkout mastter
+git checkout master
+git status
+git stash
+git checkout master
+git pull origin master
+git status
+rails s
+git checkout -b favorites
+rspec spec/models/user_spec.rb
+rails g migration AddEmailPermissionToUsers email_favorites:boolean
+rake db:migrate
+rails g model Favorite post:references user:references
+rake db:migrate
+rails g controller Favorites
+rails s
+rails g mailer FavoriteMailer
+rails c
+rspec spec
+rspec spec
+git add .
