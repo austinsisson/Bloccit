@@ -97,3 +97,32 @@ rails c
 rspec spec
 rspec spec
 git add .
+rspec spec/models/user_spec.rb
+rspec spec/models/user_spec.rb
+rspec spec/models/user_spec.rb
+rspec spec/models/user_spec.rb
+rspec spec/models/user_spec.rb
+rspec spec/models/user_spec.rb
+rspec spec/models/user_spec.rb
+rspec spec/models/user_spec.rb
+git add .
+git commit -m 'created favorites functionality'
+git checkout master
+git merge favorites
+git push origin
+git push origin master
+rails s
+rails s
+git checkout -b private-topics
+rspec spec/models/topic_spec.rb
+rspec spec/models/topic_spec.rb
+rspec spec/models/topic_spec.rb
+rspec spec/models/topic_spec.rb
+rspec spec/models/topic_spec.rb
+rspec spec/models/topic_spec.rb
+rspec spec/models/topic_spec.rb
+git add .
+git commit -m 'implemented private topics'
+git checkout master
+git merge private-topics
+git push origin master
