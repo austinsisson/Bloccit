@@ -126,3 +126,23 @@ git commit -m 'implemented private topics'
 git checkout master
 git merge private-topics
 git push origin master
+git pull origin master
+git status
+git stash
+git checkout master
+git pull origin master
+git checkout -b private-profiles
+rspec spec/features/profiles_spec.rb
+bundle
+
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+git add .
+git commit -m 'began implementing user profiles, work in progress'
