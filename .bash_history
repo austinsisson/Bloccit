@@ -182,3 +182,23 @@ git commit -m 'started sign in test in profiles_spec'
 git checkout master
 git merge modified-profile-spec
 git push origin master
+rails spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+git add .
+git commit -m 'fixed profiles_spec to pass second test'
+git push origin master
+git status
+git checkout -b popular-posts
+mv app/controllers/posts_controller.rb app/controllers/topics/post_controllers.rb
+mv app/controllers/posts_controller.rb app/controllers/topics/post_controllers.rb
+mv app/views/posts/_form.html.erb app/views/topics/posts/_form.html.erb
+mv app/views/posts/_form.html.erb app/views/topics/posts/_form.html.erb
+mv app/views/posts/edit.html.erb app/views/topics/posts/edit.html.erb
+mv app/views/posts/new.html.erb app/views/topics/posts/new.html.erb
+mv app/views/posts/show.html.erb app/views/topics/posts/show.html.erb
+touch app/controllers/posts_controller.rb app/views/posts/index.html.erb
+rails s
