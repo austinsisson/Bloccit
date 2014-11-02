@@ -10,7 +10,7 @@ describe "Visting profiles" do
   before do
     @user = authenticated_user
     @post = associated_post(user: @user)
-    @comment = Comment.new(user: @user, body: "A comment")
+    @comment = Comment.new(user: @user, post: @post, body: "A comment")
     allow(@comment).to receive(:send_favorite_emails)
     @comment.save
   end

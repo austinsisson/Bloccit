@@ -146,3 +146,39 @@ rspec spec/features/profiles_spec.rb
 rspec spec/features/profiles_spec.rb
 git add .
 git commit -m 'began implementing user profiles, work in progress'
+git add .
+git commit -m 'completed user profiles'
+git checkout master
+git commit
+git checkout master
+git checkout .bash_history
+git checkout master
+git merge private-profiles
+git push origin master
+git checkout -b modified-profile-spec
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rails s
+rails s
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+rspec spec/features/profiles_spec.rb
+git add .
+git commit -m 'started sign in test in profiles_spec'
+git checkout master
+git merge modified-profile-spec
+git push origin master
