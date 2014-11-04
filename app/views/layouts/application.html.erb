@@ -8,7 +8,6 @@
 </head>
 <body>
 	<div class="container">
-		<ul>
 		<ul class="nav nav-tabs">
 			<li><%= link_to "Bloccit",  root_path %></li>
 			<li><%= link_to "About",    about_path %></li>
@@ -51,7 +50,14 @@
 		<% end %>
 		
 		<%= yield %>
+    
+    <div class="footer">
+      <div class="span9">
+        <a class="github-button" href="https://github.com/austinsisson" data-style="mega">Follow me on GitHub!</a>
+        <a class="github-button" href="https://github.com/austinsisson/bloccit/issues" data-icon="octicon-issue-opened"                data-style="mega">Submit an issue</a>
+      </div>
+      <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    </div>
 	</div>
-
 </body>
 </html>
