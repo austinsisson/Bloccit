@@ -202,3 +202,17 @@ mv app/views/posts/new.html.erb app/views/topics/posts/new.html.erb
 mv app/views/posts/show.html.erb app/views/topics/posts/show.html.erb
 touch app/controllers/posts_controller.rb app/views/posts/index.html.erb
 rails s
+git status
+git pull origin master
+git commit -m 'test'
+git status
+git checkout .bash_history
+rails s
+bundle
+rails s
+git checkout -b new-layout
+rails s
+git add .
+git commit -m 'edited welcome, about page'
+git push origin new-layout
+rails s
